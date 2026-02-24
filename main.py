@@ -6,9 +6,9 @@ def main():
     result1 = is_prime(number)
     print(f"{number}-те число Фібоначчі дорівнює {result}")
     if is_prime(number):
-        print(f"Число {number} є простим")
+        print(f"{number} є простим")
     else:
-        print(f"Число {number} НЕ є простим.")
+        print(f"{number} НЕ є простим.")
     if is_pow_of_five(number):
         print(f"Число {number} є степенем 5!")
     else:
