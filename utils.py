@@ -10,7 +10,7 @@ def fibonacci(n):
         a, b = b, a + b
     return b
 
-def is_power_of_five(n):
+def is_pow_of_five(n):
     if n <= 0:
         return False
     while n % 5 == 0:
